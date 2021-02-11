@@ -1,0 +1,123 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 1200px;
+    margin: 0 auto;
+    background: #dfe6e9;
+}
+
+.containerH1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.containerH3 {
+    text-align: center;
+    font-weight: 400;
+    margin-top: -20px;
+}
+
+.container-devider {
+    width: 400px;
+    height: 2px;
+    background: white;
+    margin: 0 auto;
+}
+
+.search-input {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search-input .input {
+    padding: 15px 20px;
+    font-size: 15px;
+    width: 400px;
+    border: none;
+    box-shadow: 3px 6px 36px 11px rgba(0, 0, 0, 0.13);
+}
+
+.search-input .input:focus {
+    outline: solid 1px #0abde3;
+    border-radius: none;
+}
+
+.search-input button {
+    padding: 10px 20px;
+    font-size: 15px;
+    width: 170px;
+    border: none;
+    background: #B53471;
+    color: white;
+    box-shadow: 3px 6px 36px 11px rgba(0, 0, 0, 0.13);
+    cursor: pointer;
+}
+
+.search-input button:focus {
+    outline: none;
+    border-radius: 0px;
+    background: #b53470cc;
+}
+
+.error-message h3 {
+    text-align: center;
+    color: red;
+    font-weight: 400;
+}
+
+.result-area {
+    background: white;
+    padding: 15px 30px;
+    width: 800px;
+    border-radius: 5px;
+    box-shadow: 3px 6px 36px 11px rgb(0 0 0 / 13%);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 350px 450px;
+}
+
+.right h3 {
+    font-size: 15px;
+    font-weight: 400;
+    color: #676767;
+    margin-top: -2px;
+}
+
+.right p {
+    font-size: 12px;
+    font-weight: 300;
+    color: #676767;
+}
+
+.right button {
+    background: red;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.right button:focus {
+    background: rgba(255, 0, 0, 0.63);
+    outline: none;
+}
+
+#search-result {
+    margin-top: 50px;
+}
+
+.videoInfo {
+    display: flex;
+    align-items: center;
+}
+
+.videoInfo i {
+    font-size: 18px;
+    color: #676767b2;
+}
+
+.videoInfo p {
+    padding-right: 30px;
+    padding-left: 10px;
+}
